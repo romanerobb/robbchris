@@ -10,7 +10,7 @@ function App() {
 <>
 <BrowserRouter>
                     <Routes>
-                        <Route exact path="https://romanerobb.github.io/robbchris" element={<Login />} />
+                        <Route exact path="" element={<Login />} />
                         <Route exact path="footer" element={<Footer />} />
                     </Routes>
             </BrowserRouter>
