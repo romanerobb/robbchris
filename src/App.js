@@ -3,11 +3,17 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from './components/login/login';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
 <>
-<h1>Hello, my name is Romane Orlando Robb</h1>
+<BrowserRouter>
+                    <Routes>
+                        {/* <Route exact path="/" element={<Login />} /> */}
+                        <Route exact path="" element={<Footer />} />
+                    </Routes>
+            </BrowserRouter>
 </>
   );
 }
