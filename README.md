@@ -2,7 +2,7 @@
 
 This is the repository for the starter project created by Romane Orlando Robb.
 
-## Tech Stack
+# Tech Stack
 
 - React (npx create-react-app)
 - Axios (npm install axios)
@@ -10,11 +10,11 @@ This is the repository for the starter project created by Romane Orlando Robb.
 - Material UI (npm install @mui/material)
 - 
 
-### Documentation
+# Documentation
 
-Deploying to Github Pages (2024)
+## Deploying to Github Pages (2024)
 
-Add the following to package.json:
+### Add the following to package.json:
 
 - Add to line 2
 
