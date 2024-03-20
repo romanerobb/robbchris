@@ -18,7 +18,7 @@ Add the following to package.json:
 
 - Add to line 2
 
-"homepage": "https://parthaaaaa.github.io/firstwebapp/",
+"homepage": "https://romanerobb.github.io/robbchris/",
 
 - Add to scripts:
 
