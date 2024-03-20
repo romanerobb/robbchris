@@ -1,10 +1,8 @@
-# robbchris
-This is the repository for the starter project created by Romane Orlando Robb and Christopher Lipovsky.
+# About
+This is the repository for the starter project created by Romane Orlando Robb.
 
-Hello
+## Tech Stack
 
-## Hello
-
-Hello
+React
 
 ### Hello
