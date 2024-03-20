@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -10,8 +10,8 @@ function App() {
 <>
 <BrowserRouter>
                     <Routes>
-                        {/* <Route exact path="/" element={<Login />} /> */}
-                        <Route exact path="" element={<Footer />} />
+                        <Route exact path="https://romanerobb.github.io/robbchris" element={<Login />} />
+                        <Route exact path="footer" element={<Footer />} />
                     </Routes>
             </BrowserRouter>
 </>

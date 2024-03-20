@@ -5,7 +5,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-// import Link from '@mui/material/Link';
+import Link from '@mui/material/Link';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
@@ -77,12 +77,12 @@ function Login() {
               alignItems: 'center',
             }}
           >
-            <img src="https://i.ibb.co/nCcW6P1/JMR-70.jpg" alt="Romane Robb Logo" width="400" height="auto"></img>
-            <Avatar sx={{ m: 1, bgcolor: 'success.main' }}>
+            <img src="https://i.ibb.co/pXQRBss/Logo-Large.jpg" alt="Docuzen Logo" width="400" height="auto"></img>
+            <Avatar sx={{ m: 1, bgcolor: 'primary.main' }}>
             <LockOutlinedIcon />
             </Avatar>
             <Typography component="h1" variant="h9">
-              Sign in and start tracking
+              Your Documents. Organized.
             </Typography>
 
             <Box component="form" onSubmit={login} noValidate sx={{ mt: 1 }}>
@@ -107,14 +107,14 @@ function Login() {
               autoComplete="current-password"
             />
             <FormControlLabel
-              control={<Checkbox value="remember" color="success" />}
+              control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
             />
             <Button
               type="submit"
               fullWidth
               variant="contained"
-              color="success" 
+              color="primary" 
               onClick={login}
               sx={{ mt: 3, mb: 2 }}
             >
