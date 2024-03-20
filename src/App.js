@@ -7,11 +7,7 @@ import Login from './components/login/login';
 function App() {
   return (
 <>
-<BrowserRouter>
-                    <Routes>
-                        <Route exact path="/" element={<Login />} />
-                    </Routes>
-            </BrowserRouter>
+<h1>Hello, my name is Romane Orlando Robb</h1>
 </>
   );
 }
