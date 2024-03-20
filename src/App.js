@@ -9,7 +9,7 @@ function App() {
 <>
 <BrowserRouter>
                     <Routes>
-                        <Route exact path="https://romanerobb.github.io/robbchris" element={<Login />} />
+                        <Route exact path="/" element={<Login />} />
                     </Routes>
             </BrowserRouter>
 </>
