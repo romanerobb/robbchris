@@ -12,4 +12,20 @@ This is the repository for the starter project created by Romane Orlando Robb.
 
 ### Documentation
 
-Hello
+Deploying to Github Pages (2024)
+
+Add the following to package.json:
+
+- Add to line 2
+
+"homepage": "https://parthaaaaa.github.io/firstwebapp/",
+
+- Add to scripts:
+
+"predeploy": "npm run build",
+
+"deploy": "gh-pages -d build"
+
+- And then run the following command:
+
+npm run deploy

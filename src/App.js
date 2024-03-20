@@ -8,7 +8,10 @@ import Footer from './components/footer/footer';
 function App() {
   return (
 <>
-<BrowserRouter>
+
+{/* Remove robbchris from the basename when testing on local host.*/}
+
+<BrowserRouter basename="/robbchris">
                     <Routes>
                         <Route exact path="" element={<Login />} />
                         <Route exact path="footer" element={<Footer />} />
