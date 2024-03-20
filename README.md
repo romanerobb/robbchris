@@ -16,16 +16,16 @@ This is the repository for the starter project created by Romane Orlando Robb.
 
 ### Add the following to package.json:
 
-- Add to line 2
+#### Add to line 2
 
 "homepage": "https://romanerobb.github.io/robbchris/",
 
-- Add to scripts:
+#### Add to scripts:
 
 "predeploy": "npm run build",
 
 "deploy": "gh-pages -d build"
 
-- And then run the following command:
+#### And then run the following command:
 
 npm run deploy
