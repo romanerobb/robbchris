@@ -4,9 +4,9 @@ This is the repository for the starter project created by Romane Orlando Robb.
 
 ## Tech Stack
 
-- React
-- 
-- 
+- React (npx create-react-app)
+- Axios (npm install axios)
+- React Router (npm install react-router-dom)
 - 
 - 
 
