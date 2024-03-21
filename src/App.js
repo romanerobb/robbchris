@@ -1,13 +1,12 @@
-import logo from './logo.svg';
+npmimport logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from './components/navbar/navbar';
 import Login from './components/login/login';
 import Footer from './components/footer/footer';
 
 function App() {
-  
+
   return (
 <>
 
@@ -17,7 +16,6 @@ function App() {
                     <Routes>
                         <Route exact path="" element={<Login />} />
                         <Route exact path="footer" element={<Footer />} />
-                        <Route exact path="navbar" element={<Navbar />} />
                     </Routes>
             </BrowserRouter>
 </>
